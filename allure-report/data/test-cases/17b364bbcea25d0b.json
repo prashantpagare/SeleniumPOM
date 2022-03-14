@@ -1,0 +1,180 @@
+{
+  "uid" : "17b364bbcea25d0b",
+  "name" : "test_printCarNamesAndPrices[firefox-Honda-Honda Cars]",
+  "fullName" : "test_carwale.Test_Carwale#test_printCarNamesAndPrices",
+  "historyId" : "6ea945a71619f3b34b6350e8525caa07",
+  "time" : {
+    "start" : 1647240613166,
+    "stop" : 1647240619788,
+    "duration" : 6622
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "log_on_failure",
+    "time" : {
+      "start" : 1647240613165,
+      "stop" : 1647240613165,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_browser",
+    "time" : {
+      "start" : 1647240605881,
+      "stop" : 1647240613165,
+      "duration" : 7284
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5818f5459d80dd94",
+      "name" : "log",
+      "source" : "5818f5459d80dd94.txt",
+      "type" : "text/plain",
+      "size" : 321
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "log_on_failure::0",
+    "time" : {
+      "start" : 1647240619791,
+      "stop" : 1647240619791,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_browser::0",
+    "time" : {
+      "start" : 1647240619791,
+      "stop" : 1647240620555,
+      "duration" : 764
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('log_on_failure', 'get_browser')"
+  }, {
+    "name" : "suite",
+    "value" : "test_carwale"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Carwale"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OEE7BVT"
+  }, {
+    "name" : "thread",
+    "value" : "17964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_carwale"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "carBrand",
+    "value" : "'Honda'"
+  }, {
+    "name" : "carTitle",
+    "value" : "'Honda Cars'"
+  }, {
+    "name" : "get_browser",
+    "value" : "'firefox'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a3bbf8272edad807",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //div[contains(text(),'Find New Cars')]",
+      "time" : {
+        "start" : 1647240257299,
+        "stop" : 1647240267669,
+        "duration" : 10370
+      }
+    }, {
+      "uid" : "9f3a40a2ceb20c6e",
+      "status" : "broken",
+      "statusDetails" : "UnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 30: character maps to <undefined>",
+      "time" : {
+        "start" : 1647239583284,
+        "stop" : 1647239586188,
+        "duration" : 2904
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "bf96a2dba9810d2c",
+        "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/2/allure/#testresult/bf96a2dba9810d2c",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //div[contains(text(),'Find New Cars')]",
+        "time" : {
+          "start" : 1647240257299,
+          "stop" : 1647240267669,
+          "duration" : 10370
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('log_on_failure', 'get_browser')" ]
+  },
+  "source" : "17b364bbcea25d0b.json",
+  "parameterValues" : [ "'Honda'", "'Honda Cars'", "'firefox'" ]
+}

@@ -1,0 +1,180 @@
+{
+  "uid" : "ea3b4442f102f16f",
+  "name" : "test_printCarNamesAndPrices[chrome-Hyundai-Hyundai Cars]",
+  "fullName" : "test_carwale.Test_Carwale#test_printCarNamesAndPrices",
+  "historyId" : "11313d3272fa44f3dc50b8de9a92784c",
+  "time" : {
+    "start" : 1647240576335,
+    "stop" : 1647240583983,
+    "duration" : 7648
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "log_on_failure",
+    "time" : {
+      "start" : 1647240576334,
+      "stop" : 1647240576334,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_browser",
+    "time" : {
+      "start" : 1647240573225,
+      "stop" : 1647240576334,
+      "duration" : 3109
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d5d9eafcbe36f260",
+      "name" : "log",
+      "source" : "d5d9eafcbe36f260.txt",
+      "type" : "text/plain",
+      "size" : 323
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "log_on_failure::0",
+    "time" : {
+      "start" : 1647240583987,
+      "stop" : 1647240583987,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_browser::0",
+    "time" : {
+      "start" : 1647240583988,
+      "stop" : 1647240586281,
+      "duration" : 2293
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('log_on_failure', 'get_browser')"
+  }, {
+    "name" : "suite",
+    "value" : "test_carwale"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Carwale"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OEE7BVT"
+  }, {
+    "name" : "thread",
+    "value" : "17964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_carwale"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "carBrand",
+    "value" : "'Hyundai'"
+  }, {
+    "name" : "carTitle",
+    "value" : "'Hyundai Cars'"
+  }, {
+    "name" : "get_browser",
+    "value" : "'chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2f13a76100d00a82",
+      "status" : "broken",
+      "statusDetails" : "UnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 25: character maps to <undefined>",
+      "time" : {
+        "start" : 1647240229450,
+        "stop" : 1647240231872,
+        "duration" : 2422
+      }
+    }, {
+      "uid" : "f898f532d40f6003",
+      "status" : "broken",
+      "statusDetails" : "UnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 25: character maps to <undefined>",
+      "time" : {
+        "start" : 1647239554957,
+        "stop" : 1647239557051,
+        "duration" : 2094
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b22a46f6e568938c",
+        "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/2/allure/#testresult/b22a46f6e568938c",
+        "status" : "broken",
+        "statusDetails" : "UnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 25: character maps to <undefined>",
+        "time" : {
+          "start" : 1647240229450,
+          "stop" : 1647240231872,
+          "duration" : 2422
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('log_on_failure', 'get_browser')" ]
+  },
+  "source" : "ea3b4442f102f16f.json",
+  "parameterValues" : [ "'Hyundai'", "'Hyundai Cars'", "'chrome'" ]
+}

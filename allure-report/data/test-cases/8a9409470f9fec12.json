@@ -1,0 +1,180 @@
+{
+  "uid" : "8a9409470f9fec12",
+  "name" : "test_printCarNamesAndPrices[chrome-BMW-BMW Cars]",
+  "fullName" : "test_carwale.Test_Carwale#test_printCarNamesAndPrices",
+  "historyId" : "e7e31e087a4887e8b62ebbca34f9ef3c",
+  "time" : {
+    "start" : 1647240548607,
+    "stop" : 1647240554421,
+    "duration" : 5814
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_browser",
+    "time" : {
+      "start" : 1647240545154,
+      "stop" : 1647240548606,
+      "duration" : 3452
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "log_on_failure",
+    "time" : {
+      "start" : 1647240548606,
+      "stop" : 1647240548606,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "528440276df33cb2",
+      "name" : "log",
+      "source" : "528440276df33cb2.txt",
+      "type" : "text/plain",
+      "size" : 319
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "get_browser::0",
+    "time" : {
+      "start" : 1647240554426,
+      "stop" : 1647240556597,
+      "duration" : 2171
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "log_on_failure::0",
+    "time" : {
+      "start" : 1647240554425,
+      "stop" : 1647240554425,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('log_on_failure', 'get_browser')"
+  }, {
+    "name" : "suite",
+    "value" : "test_carwale"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Carwale"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OEE7BVT"
+  }, {
+    "name" : "thread",
+    "value" : "17964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_carwale"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "carBrand",
+    "value" : "'BMW'"
+  }, {
+    "name" : "carTitle",
+    "value" : "'BMW Cars'"
+  }, {
+    "name" : "get_browser",
+    "value" : "'chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bbef3eaf8e895779",
+      "status" : "broken",
+      "statusDetails" : "UnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 24: character maps to <undefined>",
+      "time" : {
+        "start" : 1647240200787,
+        "stop" : 1647240204377,
+        "duration" : 3590
+      }
+    }, {
+      "uid" : "4b655a8bce2d41eb",
+      "status" : "broken",
+      "statusDetails" : "UnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 24: character maps to <undefined>",
+      "time" : {
+        "start" : 1647239528125,
+        "stop" : 1647239530717,
+        "duration" : 2592
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "eb5fb1500f00d928",
+        "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/2/allure/#testresult/eb5fb1500f00d928",
+        "status" : "broken",
+        "statusDetails" : "UnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 24: character maps to <undefined>",
+        "time" : {
+          "start" : 1647240200787,
+          "stop" : 1647240204377,
+          "duration" : 3590
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('log_on_failure', 'get_browser')" ]
+  },
+  "source" : "8a9409470f9fec12.json",
+  "parameterValues" : [ "'BMW'", "'BMW Cars'", "'chrome'" ]
+}

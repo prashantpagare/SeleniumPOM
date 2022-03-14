@@ -1,0 +1,149 @@
+{
+  "uid" : "bbef3eaf8e895779",
+  "name" : "test_printCarNamesAndPrices[chrome-BMW-BMW Cars]",
+  "fullName" : "test_carwale.Test_Carwale#test_printCarNamesAndPrices",
+  "historyId" : "e7e31e087a4887e8b62ebbca34f9ef3c",
+  "time" : {
+    "start" : 1647240200787,
+    "stop" : 1647240204377,
+    "duration" : 3590
+  },
+  "status" : "broken",
+  "statusMessage" : "UnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 24: character maps to <undefined>",
+  "statusTrace" : "self = <Testcases.test_carwale.Test_Carwale object at 0x07D9FD60>\ncarBrand = 'BMW', carTitle = 'BMW Cars'\n\n    @pytest.mark.parametrize(\"carBrand,carTitle\", dataProvider.get_userData(\"Sheet2\"))\n    def test_printCarNamesAndPrices(self, carBrand, carTitle):\n        log.logger.info(\"***** Print Car Names and Prices Test *****\")\n        home = HomePage(self.driver)\n        car = CarBase(self.driver)\n    \n        if carBrand == \"BMW\":\n            home.gotoNewCars().selectBMW()\n            title = car.getCarTitle()\n            print((\"Car Title: \" + title).encode('utf8'))\n            assert title == carTitle, \"Not Matching not on the Matching car page\"\n>           car.getCarNamesAndPrices()\n\ntest_carwale.py:63: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\CarBase.py:17: in getCarNamesAndPrices\n    print(carNames[i].text + \"Prices are :\" + carPrices[i].text)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <encodings.cp1252.IncrementalEncoder object at 0x0123E5E0>\ninput = 'BMW 3 SeriesPrices are :₹ 39.84 Lakh', final = False\n\n    def encode(self, input, final=False):\n>       return codecs.charmap_encode(input,self.errors,encoding_table)[0]\nE       UnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 24: character maps to <undefined>\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\encodings\\cp1252.py:19: UnicodeEncodeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_browser",
+    "time" : {
+      "start" : 1647240196699,
+      "stop" : 1647240200786,
+      "duration" : 4087
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "log_on_failure",
+    "time" : {
+      "start" : 1647240200786,
+      "stop" : 1647240200786,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "UnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 24: character maps to <undefined>",
+    "statusTrace" : "self = <Testcases.test_carwale.Test_Carwale object at 0x07D9FD60>\ncarBrand = 'BMW', carTitle = 'BMW Cars'\n\n    @pytest.mark.parametrize(\"carBrand,carTitle\", dataProvider.get_userData(\"Sheet2\"))\n    def test_printCarNamesAndPrices(self, carBrand, carTitle):\n        log.logger.info(\"***** Print Car Names and Prices Test *****\")\n        home = HomePage(self.driver)\n        car = CarBase(self.driver)\n    \n        if carBrand == \"BMW\":\n            home.gotoNewCars().selectBMW()\n            title = car.getCarTitle()\n            print((\"Car Title: \" + title).encode('utf8'))\n            assert title == carTitle, \"Not Matching not on the Matching car page\"\n>           car.getCarNamesAndPrices()\n\ntest_carwale.py:63: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\CarBase.py:17: in getCarNamesAndPrices\n    print(carNames[i].text + \"Prices are :\" + carPrices[i].text)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <encodings.cp1252.IncrementalEncoder object at 0x0123E5E0>\ninput = 'BMW 3 SeriesPrices are :₹ 39.84 Lakh', final = False\n\n    def encode(self, input, final=False):\n>       return codecs.charmap_encode(input,self.errors,encoding_table)[0]\nE       UnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 24: character maps to <undefined>\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\encodings\\cp1252.py:19: UnicodeEncodeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "479168d85949ddf",
+      "name" : "log",
+      "source" : "479168d85949ddf.txt",
+      "type" : "text/plain",
+      "size" : 319
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_browser::0",
+    "time" : {
+      "start" : 1647240207014,
+      "stop" : 1647240209238,
+      "duration" : 2224
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "log_on_failure::0",
+    "time" : {
+      "start" : 1647240204999,
+      "stop" : 1647240207013,
+      "duration" : 2014
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "33a4e1e4f593e36f",
+      "name" : "login",
+      "source" : "33a4e1e4f593e36f.png",
+      "type" : "image/png",
+      "size" : 403611
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('log_on_failure', 'get_browser')"
+  }, {
+    "name" : "suite",
+    "value" : "test_carwale"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Carwale"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OEE7BVT"
+  }, {
+    "name" : "thread",
+    "value" : "13756-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_carwale"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "carBrand",
+    "value" : "'BMW'"
+  }, {
+    "name" : "carTitle",
+    "value" : "'BMW Cars'"
+  }, {
+    "name" : "get_browser",
+    "value" : "'chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('log_on_failure', 'get_browser')" ]
+  },
+  "source" : "bbef3eaf8e895779.json",
+  "parameterValues" : [ "'BMW'", "'BMW Cars'", "'chrome'" ]
+}

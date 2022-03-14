@@ -1,0 +1,555 @@
+{
+  "52b44556bc162226a1899f9d089621be" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "83d14cfe72fc95e6",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/3/allure/#testresult/83d14cfe72fc95e6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1647240545134,
+        "stop" : 1647240545134,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9429a92b08dc20f4",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/2/allure/#testresult/9429a92b08dc20f4",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1647240196662,
+        "stop" : 1647240196662,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e7e31e087a4887e8b62ebbca34f9ef3c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "8a9409470f9fec12",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/3/allure/#testresult/8a9409470f9fec12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647240548607,
+        "stop" : 1647240554421,
+        "duration" : 5814
+      }
+    }, {
+      "uid" : "eb5fb1500f00d928",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/2/allure/#testresult/eb5fb1500f00d928",
+      "status" : "broken",
+      "statusDetails" : "UnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 24: character maps to <undefined>",
+      "time" : {
+        "start" : 1647240200787,
+        "stop" : 1647240204377,
+        "duration" : 3590
+      }
+    } ]
+  },
+  "4dc5e9e86da2f018d063c0f631b0cfb6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "290f3ff92a889682",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/3/allure/#testresult/290f3ff92a889682",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1647240545149,
+        "stop" : 1647240545149,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b7b52d362c4d3dad",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/2/allure/#testresult/b7b52d362c4d3dad",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1647240196689,
+        "stop" : 1647240196689,
+        "duration" : 0
+      }
+    } ]
+  },
+  "0e60cc8ad47bf9fe27b20b8210d49b39" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "262d7e2a1aa20720",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/3/allure/#testresult/262d7e2a1aa20720",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1647240545147,
+        "stop" : 1647240545147,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "71db3cda9baa32dd",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/2/allure/#testresult/71db3cda9baa32dd",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1647240196685,
+        "stop" : 1647240196685,
+        "duration" : 0
+      }
+    } ]
+  },
+  "34f12400fc4bc7f72e20881cccd0c279" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "1ee4cc8851ef4926",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/3/allure/#testresult/1ee4cc8851ef4926",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1647240545139,
+        "stop" : 1647240545139,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2742faf94584c889",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/2/allure/#testresult/2742faf94584c889",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1647240196672,
+        "stop" : 1647240196672,
+        "duration" : 0
+      }
+    } ]
+  },
+  "73e1ace43e5d6d449884df9e24a975bd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "2810c0ade003f54e",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/3/allure/#testresult/2810c0ade003f54e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: Element <img class=\"o-bXKmQE o-cgkaRG o-cQfblS RpK5NQ o-pGqQl o-wBtSi o-bwUciP o-btTZkL o-bfyaNx o-eAZqQI\" src=\"https://imgd.aeplcdn.com/0x0/statics/grey.gif\"> could not be scrolled into view",
+      "time" : {
+        "start" : 1647240627987,
+        "stop" : 1647240633701,
+        "duration" : 5714
+      }
+    }, {
+      "uid" : "d5c38aed0b1d2418",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/2/allure/#testresult/d5c38aed0b1d2418",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: Element <img class=\"o-bXKmQE o-cgkaRG o-cQfblS RpK5NQ o-pGqQl o-wBtSi o-bwUciP o-btTZkL o-bfyaNx o-eAZqQI\" src=\"https://imgd.aeplcdn.com/0x0/statics/grey.gif\"> could not be scrolled into view",
+      "time" : {
+        "start" : 1647240276147,
+        "stop" : 1647240281962,
+        "duration" : 5815
+      }
+    } ]
+  },
+  "6ea945a71619f3b34b6350e8525caa07" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "17b364bbcea25d0b",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/3/allure/#testresult/17b364bbcea25d0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647240613166,
+        "stop" : 1647240619788,
+        "duration" : 6622
+      }
+    }, {
+      "uid" : "bf96a2dba9810d2c",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/2/allure/#testresult/bf96a2dba9810d2c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //div[contains(text(),'Find New Cars')]",
+      "time" : {
+        "start" : 1647240257299,
+        "stop" : 1647240267669,
+        "duration" : 10370
+      }
+    } ]
+  },
+  "3fb8462cd247370dd9a56349128c77d8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c7b066ac1fb74166",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/3/allure/#testresult/c7b066ac1fb74166",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: Element <img class=\"o-bXKmQE o-cgkaRG o-cQfblS RpK5NQ o-pGqQl o-wBtSi o-bwUciP o-btTZkL o-bfyaNx o-eAZqQI\" src=\"https://imgd.aeplcdn.com/0x0/statics/grey.gif\"> could not be scrolled into view",
+      "time" : {
+        "start" : 1647240642843,
+        "stop" : 1647240648599,
+        "duration" : 5756
+      }
+    }, {
+      "uid" : "c82c25582c5c804a",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/2/allure/#testresult/c82c25582c5c804a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: Element <img class=\"o-bXKmQE o-cgkaRG o-cQfblS RpK5NQ o-pGqQl o-wBtSi o-bwUciP o-btTZkL o-bfyaNx o-eAZqQI\" src=\"https://imgd.aeplcdn.com/0x0/statics/grey.gif\"> could not be scrolled into view",
+      "time" : {
+        "start" : 1647240290129,
+        "stop" : 1647240295929,
+        "duration" : 5800
+      }
+    } ]
+  },
+  "11313d3272fa44f3dc50b8de9a92784c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "ea3b4442f102f16f",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/3/allure/#testresult/ea3b4442f102f16f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647240576335,
+        "stop" : 1647240583983,
+        "duration" : 7648
+      }
+    }, {
+      "uid" : "b22a46f6e568938c",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/2/allure/#testresult/b22a46f6e568938c",
+      "status" : "broken",
+      "statusDetails" : "UnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 25: character maps to <undefined>",
+      "time" : {
+        "start" : 1647240229450,
+        "stop" : 1647240231872,
+        "duration" : 2422
+      }
+    } ]
+  },
+  "3741a5a592edf0c1925b75c1a39c7f97" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "24c962f67058295e",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/3/allure/#testresult/24c962f67058295e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1647240545144,
+        "stop" : 1647240545144,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "31fcf4dc52d861ad",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/2/allure/#testresult/31fcf4dc52d861ad",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1647240196681,
+        "stop" : 1647240196681,
+        "duration" : 0
+      }
+    } ]
+  },
+  "72fad728ddd995a7e21fba9a0d69e681" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "748e20d2206469b9",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/3/allure/#testresult/748e20d2206469b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647240568236,
+        "stop" : 1647240570983,
+        "duration" : 2747
+      }
+    }, {
+      "uid" : "af5153232ccad65b",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/2/allure/#testresult/af5153232ccad65b",
+      "status" : "broken",
+      "statusDetails" : "UnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 32: character maps to <undefined>",
+      "time" : {
+        "start" : 1647240221338,
+        "stop" : 1647240223611,
+        "duration" : 2273
+      }
+    } ]
+  },
+  "87ca33e4de87114d2ec4599367fee61e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "5bc17cc1f522aa7a",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/3/allure/#testresult/5bc17cc1f522aa7a",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1647240545141,
+        "stop" : 1647240545141,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "45df8bbf47d02c40",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/2/allure/#testresult/45df8bbf47d02c40",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1647240196676,
+        "stop" : 1647240196676,
+        "duration" : 0
+      }
+    } ]
+  },
+  "5dda7c783a64a6653365608b189909ca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "bea509e0d55fe02a",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/3/allure/#testresult/bea509e0d55fe02a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647240560534,
+        "stop" : 1647240562635,
+        "duration" : 2101
+      }
+    }, {
+      "uid" : "bffe54b50c1c087c",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/2/allure/#testresult/bffe54b50c1c087c",
+      "status" : "broken",
+      "statusDetails" : "UnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 30: character maps to <undefined>",
+      "time" : {
+        "start" : 1647240213103,
+        "stop" : 1647240215181,
+        "duration" : 2078
+      }
+    } ]
+  },
+  "290425bd1a8010cf3a098cd7012b625f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "aa4c85ba6175795b",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/3/allure/#testresult/aa4c85ba6175795b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1647240545130,
+        "stop" : 1647240545130,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2d6687ab25f833e5",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/2/allure/#testresult/2d6687ab25f833e5",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1647240196658,
+        "stop" : 1647240196658,
+        "duration" : 0
+      }
+    } ]
+  },
+  "057af0b5fb00443ead42855d9889720f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "fa2a4e799e42f605",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/3/allure/#testresult/fa2a4e799e42f605",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1647240545136,
+        "stop" : 1647240545136,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "76248ef2726263ba",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/2/allure/#testresult/76248ef2726263ba",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1647240196667,
+        "stop" : 1647240196667,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d7ca2b79352f9f173102f71069990995" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "4175937b82745a1a",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/3/allure/#testresult/4175937b82745a1a",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1647240545125,
+        "stop" : 1647240545125,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "34f93820d80aa5b4",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/2/allure/#testresult/34f93820d80aa5b4",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1647240196647,
+        "stop" : 1647240196647,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4fb736bf781bc514e12142f1491ec922" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "6d5a36a8dd3eae22",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/3/allure/#testresult/6d5a36a8dd3eae22",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //div[contains(text(),'Find New Cars')]",
+      "time" : {
+        "start" : 1647240594265,
+        "stop" : 1647240604602,
+        "duration" : 10337
+      }
+    }, {
+      "uid" : "b23fc822b289cedb",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/2/allure/#testresult/b23fc822b289cedb",
+      "status" : "broken",
+      "statusDetails" : "UnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 18: character maps to <undefined>",
+      "time" : {
+        "start" : 1647240242105,
+        "stop" : 1647240248780,
+        "duration" : 6675
+      }
+    } ]
+  },
+  "480dd92c3cf7c8c8240709140018a71d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "7d9f5d9841957ec8",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/3/allure/#testresult/7d9f5d9841957ec8",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1647240545128,
+        "stop" : 1647240545128,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6ec346c89d8999ab",
+      "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/2/allure/#testresult/6ec346c89d8999ab",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1647240196653,
+        "stop" : 1647240196653,
+        "duration" : 0
+      }
+    } ]
+  }
+}

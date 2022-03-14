@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "1bd34392e47c7c27775f4f80dcda3679",
+    "name" : "test_carwale",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 10,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 18
+    }
+  } ]
+}

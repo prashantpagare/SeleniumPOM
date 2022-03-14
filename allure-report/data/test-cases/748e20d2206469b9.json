@@ -1,0 +1,179 @@
+{
+  "uid" : "748e20d2206469b9",
+  "name" : "test_printCarNamesAndPrices[chrome-Toyota-Toyota Cars]",
+  "fullName" : "test_carwale.Test_Carwale#test_printCarNamesAndPrices",
+  "historyId" : "72fad728ddd995a7e21fba9a0d69e681",
+  "time" : {
+    "start" : 1647240568236,
+    "stop" : 1647240570983,
+    "duration" : 2747
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_browser",
+    "time" : {
+      "start" : 1647240564784,
+      "stop" : 1647240568235,
+      "duration" : 3451
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "log_on_failure",
+    "time" : {
+      "start" : 1647240568235,
+      "stop" : 1647240568236,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1bddb150af54ccfe",
+      "name" : "log",
+      "source" : "1bddb150af54ccfe.txt",
+      "type" : "text/plain",
+      "size" : 322
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "get_browser::0",
+    "time" : {
+      "start" : 1647240570987,
+      "stop" : 1647240573221,
+      "duration" : 2234
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "log_on_failure::0",
+    "time" : {
+      "start" : 1647240570986,
+      "stop" : 1647240570986,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('log_on_failure', 'get_browser')"
+  }, {
+    "name" : "suite",
+    "value" : "test_carwale"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Carwale"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OEE7BVT"
+  }, {
+    "name" : "thread",
+    "value" : "17964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_carwale"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "carBrand",
+    "value" : "'Toyota'"
+  }, {
+    "name" : "carTitle",
+    "value" : "'Toyota Cars'"
+  }, {
+    "name" : "get_browser",
+    "value" : "'chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1b7ff3ccaa72918e",
+      "status" : "broken",
+      "statusDetails" : "UnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 32: character maps to <undefined>",
+      "time" : {
+        "start" : 1647240221338,
+        "stop" : 1647240223611,
+        "duration" : 2273
+      }
+    }, {
+      "uid" : "c84a6c722b906e07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647239549149,
+        "stop" : 1647239549149,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "af5153232ccad65b",
+        "reportUrl" : "http://localhost:8080/job/PageObjectModelPythonFramework/2/allure/#testresult/af5153232ccad65b",
+        "status" : "broken",
+        "statusDetails" : "UnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 32: character maps to <undefined>",
+        "time" : {
+          "start" : 1647240221338,
+          "stop" : 1647240223611,
+          "duration" : 2273
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('log_on_failure', 'get_browser')" ]
+  },
+  "source" : "748e20d2206469b9.json",
+  "parameterValues" : [ "'Toyota'", "'Toyota Cars'", "'chrome'" ]
+}

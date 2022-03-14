@@ -1,0 +1,1 @@
+INFO     Testcases.test_carwale:test_carwale.py:54 ***** Print Car Names and Prices Test *****

@@ -1,0 +1,149 @@
+{
+  "uid" : "9f3a40a2ceb20c6e",
+  "name" : "test_printCarNamesAndPrices[firefox-Honda-Honda Cars]",
+  "fullName" : "test_carwale.Test_Carwale#test_printCarNamesAndPrices",
+  "historyId" : "6ea945a71619f3b34b6350e8525caa07",
+  "time" : {
+    "start" : 1647239583284,
+    "stop" : 1647239586188,
+    "duration" : 2904
+  },
+  "status" : "broken",
+  "statusMessage" : "UnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 30: character maps to <undefined>",
+  "statusTrace" : "self = <Testcases.test_carwale.Test_Carwale object at 0x08BC8F70>\ncarBrand = 'Honda', carTitle = 'Honda Cars'\n\n    @pytest.mark.parametrize(\"carBrand,carTitle\", dataProvider.get_userData(\"Sheet2\"))\n    def test_printCarNamesAndPrices(self, carBrand, carTitle):\n        log.logger.info(\"***** Print Car Names and Prices Test *****\")\n        home = HomePage(self.driver)\n        car = CarBase(self.driver)\n    \n        if carBrand == \"BMW\":\n            home.gotoNewCars().selectBMW()\n            title = car.getCarTitle()\n            print(\"Car Title: \" + title)\n            assert title == carTitle, \"Not Matching not on the Matching car page\"\n            car.getCarNamesAndPrices()\n        elif carBrand == \"Honda\":\n            home.gotoNewCars().selectHonda()\n            title = car.getCarTitle()\n            print(\"Car Title: \" + title)\n            assert title == carTitle, \"Not Matching not on the Matching car page\"\n>           car.getCarNamesAndPrices()\n\ntest_carwale.py:69: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\CarBase.py:17: in getCarNamesAndPrices\n    print(carNames[i].text + \"Prices are :\" + carPrices[i].text)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <encodings.cp1252.IncrementalEncoder object at 0x00A5E5E0>\ninput = 'Honda All New CityPrices are :₹ 11.26 Lakh', final = False\n\n    def encode(self, input, final=False):\n>       return codecs.charmap_encode(input,self.errors,encoding_table)[0]\nE       UnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 30: character maps to <undefined>\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\encodings\\cp1252.py:19: UnicodeEncodeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_browser",
+    "time" : {
+      "start" : 1647239575265,
+      "stop" : 1647239583282,
+      "duration" : 8017
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "log_on_failure",
+    "time" : {
+      "start" : 1647239583282,
+      "stop" : 1647239583283,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "UnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 30: character maps to <undefined>",
+    "statusTrace" : "self = <Testcases.test_carwale.Test_Carwale object at 0x08BC8F70>\ncarBrand = 'Honda', carTitle = 'Honda Cars'\n\n    @pytest.mark.parametrize(\"carBrand,carTitle\", dataProvider.get_userData(\"Sheet2\"))\n    def test_printCarNamesAndPrices(self, carBrand, carTitle):\n        log.logger.info(\"***** Print Car Names and Prices Test *****\")\n        home = HomePage(self.driver)\n        car = CarBase(self.driver)\n    \n        if carBrand == \"BMW\":\n            home.gotoNewCars().selectBMW()\n            title = car.getCarTitle()\n            print(\"Car Title: \" + title)\n            assert title == carTitle, \"Not Matching not on the Matching car page\"\n            car.getCarNamesAndPrices()\n        elif carBrand == \"Honda\":\n            home.gotoNewCars().selectHonda()\n            title = car.getCarTitle()\n            print(\"Car Title: \" + title)\n            assert title == carTitle, \"Not Matching not on the Matching car page\"\n>           car.getCarNamesAndPrices()\n\ntest_carwale.py:69: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\CarBase.py:17: in getCarNamesAndPrices\n    print(carNames[i].text + \"Prices are :\" + carPrices[i].text)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <encodings.cp1252.IncrementalEncoder object at 0x00A5E5E0>\ninput = 'Honda All New CityPrices are :₹ 11.26 Lakh', final = False\n\n    def encode(self, input, final=False):\n>       return codecs.charmap_encode(input,self.errors,encoding_table)[0]\nE       UnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 30: character maps to <undefined>\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\encodings\\cp1252.py:19: UnicodeEncodeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1ad25edc4b7b9192",
+      "name" : "log",
+      "source" : "1ad25edc4b7b9192.txt",
+      "type" : "text/plain",
+      "size" : 321
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_browser::0",
+    "time" : {
+      "start" : 1647239586442,
+      "stop" : 1647239587579,
+      "duration" : 1137
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "log_on_failure::0",
+    "time" : {
+      "start" : 1647239586201,
+      "stop" : 1647239586441,
+      "duration" : 240
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "76d3e737875c93aa",
+      "name" : "login",
+      "source" : "76d3e737875c93aa.png",
+      "type" : "image/png",
+      "size" : 228560
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('log_on_failure', 'get_browser')"
+  }, {
+    "name" : "suite",
+    "value" : "test_carwale"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Carwale"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OEE7BVT"
+  }, {
+    "name" : "thread",
+    "value" : "7376-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_carwale"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "carBrand",
+    "value" : "'Honda'"
+  }, {
+    "name" : "carTitle",
+    "value" : "'Honda Cars'"
+  }, {
+    "name" : "get_browser",
+    "value" : "'firefox'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('log_on_failure', 'get_browser')" ]
+  },
+  "source" : "9f3a40a2ceb20c6e.json",
+  "parameterValues" : [ "'Honda'", "'Honda Cars'", "'firefox'" ]
+}

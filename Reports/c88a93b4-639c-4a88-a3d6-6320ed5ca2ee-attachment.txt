@@ -1,0 +1,4 @@
+INFO     Testcases.test_carwale:test_carwale.py:53 ***** Print Car Names and Prices Test *****
+INFO     Pages.BasePage:BasePage.py:58 Moving to an element: newCar_XPATH
+INFO     Pages.BasePage:BasePage.py:24 Clicking on element: findNewCars_XPATH
+INFO     Pages.BasePage:BasePage.py:24 Clicking on element: BMWCar_XPATH

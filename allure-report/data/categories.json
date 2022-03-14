@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //div[contains(text(),'Find New Cars')]",
+      "children" : [ {
+        "name" : "test_printCarNamesAndPrices[firefox-BMW-BMW Cars]",
+        "uid" : "6d5a36a8dd3eae22",
+        "parentUid" : "b8492f9450eac49a28d9374d788ae2e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647240594265,
+          "stop" : 1647240604602,
+          "duration" : 10337
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'BMW'", "'BMW Cars'", "'firefox'" ]
+      } ],
+      "uid" : "b8492f9450eac49a28d9374d788ae2e9"
+    }, {
+      "name" : "selenium.common.exceptions.ElementNotInteractableException: Message: Element <img class=\"o-bXKmQE o-cgkaRG o-cQfblS RpK5NQ o-pGqQl o-wBtSi o-bwUciP o-btTZkL o-bfyaNx o-eAZqQI\" src=\"https://imgd.aeplcdn.com/0x0/statics/grey.gif\"> could not be scrolled into view",
+      "children" : [ {
+        "name" : "test_printCarNamesAndPrices[firefox-Toyota-Toyota Cars]",
+        "uid" : "2810c0ade003f54e",
+        "parentUid" : "0f744af0df6c39c103d9cf90b2807474",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647240627987,
+          "stop" : 1647240633701,
+          "duration" : 5714
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Toyota'", "'Toyota Cars'", "'firefox'" ]
+      }, {
+        "name" : "test_printCarNamesAndPrices[firefox-Hyundai-Hyundai Cars]",
+        "uid" : "c7b066ac1fb74166",
+        "parentUid" : "0f744af0df6c39c103d9cf90b2807474",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647240642843,
+          "stop" : 1647240648599,
+          "duration" : 5756
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Hyundai'", "'Hyundai Cars'", "'firefox'" ]
+      } ],
+      "uid" : "0f744af0df6c39c103d9cf90b2807474"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
