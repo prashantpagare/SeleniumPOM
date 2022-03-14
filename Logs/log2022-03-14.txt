@@ -131,3 +131,18 @@ lement: ToyotaCar_XPATH
 2022-03-14 12:20:42,843 - INFO:[53] - [INFO] - ***** Print Car Names and Prices Test *****
 2022-03-14 12:20:43,136 - INFO:[58] - [INFO] - Moving to an element: newCar_XPATH
 2022-03-14 12:20:48,551 - INFO:[24] - [INFO] - Clicking on element: findNewCars_XPATH
+2022-03-14 13:03:35,793 - INFO:[53] - [INFO] - ***** Print Car Names and Prices Test *****
+2022-03-14 13:03:36,134 - INFO:[58] - [INFO] - Moving to an element: newCar_XPATH
+2022-03-14 13:03:36,261 - INFO:[24] - [INFO] - Clicking on element: findNewCars_XPATH
+2022-03-14 13:03:37,095 - INFO:[24] - [INFO] - Clicking on element: BMWCar_XPATH
+2022-03-14 13:03:52,909 - INFO:[53] - [INFO] - ***** Print Car Names and Prices Test *****
+2022-03-14 13:03:53,227 - INFO:[58] - [INFO] - Moving to an element: newCar_XPATH
+2022-03-14 13:03:53,342 - INFO:[24] - [INFO] - Clicking on element: findNewCars_XPATH
+2022-03-14 13:03:54,002 - INFO:[24] - [INFO] - Clicking on element: HondaCar_XPATH
+2022-03-14 13:04:08,953 - INFO:[53] - [INFO] - ***** Print Car Names and Prices Test *****
+2022-03-14 13:04:09,688 - INFO:[58] - [INFO] - Moving to an element: newCar_XPATH
+2022-03-14 13:04:10,630 - INFO:[24] - [INFO] - Clicking on element: findNewCars_XPATH
+2022-03-14 13:04:23,089 - INFO:[53] - [INFO] - ***** Print Car Names and Prices Test *****
+2022-03-14 13:04:23,478 - INFO:[58] - [INFO] - Moving to an element: newCar_XPATH
+2022-03-14 13:04:23,575 - INFO:[24] - [INFO] - Clicking on element: findNewCars_XPATH
+2022-03-14 13:04:24,311 - INFO:[24] - [INFO] - Clicking on element: BMWCar_XPATH
